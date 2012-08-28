@@ -4,15 +4,11 @@
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <title>WineStore</title>
-
-<style type="text/css">
-h1{text-align:center}
-</style>
 <meta name="keywords" content="" />
 </head>
 <body>
 
-<h1>Winestore partD</h1>
+<h1>Winestore partC</h1>
 
 <form action="result.php" method="GET">
 <table border="5" cellspadding="20" align="center">
@@ -28,7 +24,7 @@ h1{text-align:center}
      <tr>
          <td>Region Name:</td>
          <td><select name="regionname">
-		 {html_options output=$regionname}</select></td>
+		 {html_options values=$idRegion output=$regionname}</select></td>
      </tr>
 	 <tr>
 		<td>Grape Variety:</td>
