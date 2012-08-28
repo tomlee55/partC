@@ -29,17 +29,17 @@
 	 <tr>
 		<td>Grape Variety:</td>
 		<td><select name="grapevariety">
-		{html_options output=$grapevariety}</select></td>
+		{html_options values=$idGrape output=$grapevariety}</select></td>
 	</tr>
      <tr>
          <td>Start year:</td>
          <td><select name="startyear">
-		 {html_options output=$startyear}</select></td>
+		 {html_options values=$year output=$year}</select></td>
      </tr>
      <tr>
          <td>End Year:</td>
          <td><select name="endyear">
-		 {html_options output=$endyear}</select></td>
+		 {html_options values=$year output=$year}</select></td>
      </tr>
      <tr>
          <td>Minimum Wine In Stock:</td>
